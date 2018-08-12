@@ -1,0 +1,33 @@
+.construction__page-background {
+	background-color: $colourprim;
+}
+
+.construction {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.construction__image-container {
+	width: 40%;
+	margin: 25px 0 25px 0;
+	animation: shake .8s;
+}
+
+.construction__image-container img {
+	display: block;
+	width: 100%;
+}
+
+.construction__gif-container {
+	width: 40%;
+	margin-bottom: 10px;
+}
+
+.construction__gif-container img {
+	display: block;
+	width: 100%;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}

@@ -1,0 +1,278 @@
+// ==Home Page Header==
+.header__bottom {
+	width: 100%;
+	max-height: 500px;
+	position: relative;
+}
+
+.header-bottom__title {
+	position: absolute;
+	z-index: 5;
+	left: 10%;
+	top: 15%;
+}
+
+.header-bottom__title h1 {
+	margin-bottom: 10px;
+	margin-top: 70px;
+	text-shadow: 1px 1px 1px $colourprim;
+}
+
+.header-bottom__title h5 {
+	margin-left: 50px;
+	margin-top: 0;
+	text-shadow: 1px 1px 1px $colourprim;
+}
+
+.header-bottom__title i {
+	color: $colouracc;
+    transform: rotate(45deg);
+    font-size: 11rem;
+    position: absolute;
+    z-index: -1;
+    top: 22%;
+    right: 41%;
+}
+
+.car {
+	background-image: url("../assets/hero/carpose.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.hero__gallery .ilhc {
+	background-image: url("../assets/hero/ilhc.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.hero__gallery .otown {
+	background-image: url("../assets/hero/lb1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 18%;
+}
+
+.hero__gallery .show {
+	background-image: url("../assets/hero/mariejump.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 20%;
+}
+
+.hero__gallery .lindybout {
+	background-image: url("../assets/hero/mapleleaf.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.hero__gallery__item {
+	height: 600px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.hero__gallery__item img {
+	width: 100%;
+}
+// ==HHome Page Header Ends==
+// ==About Me==
+.wrapper__aboutme {
+	margin-top: 100px;
+}
+.aboutme {
+	display: flex;
+}
+
+.aboutme__name {
+	margin: 0;
+}
+
+.aboutme__pic__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: $colourprim;
+	padding: 3% 0 3% ;
+	margin: 4% 2% 4% 0;
+	border-radius: 30px;
+	width: 50%;
+}
+
+.aboutme__pic {
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 1px 1px 25px $coloursec;
+}
+
+.aboutme__content {
+	width: 50%;
+	margin: auto;
+	padding: 25px;
+}
+// ==About Me Ends==
+// ==Titles==
+.titles {
+	display: flex;
+}
+
+.titles__description {
+	width: 50%;
+	display: flex;
+	background-color: $colourprim;
+	padding: 0 0 110px 0;
+}
+
+.titles__description__buttons {
+	width: 35%;
+	text-align: right;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-right: 10px;
+}
+
+.titles__description__buttons span {
+	margin-left: 5px;
+}
+
+.titles__button {
+	text-transform: uppercase;
+	color: $colouracc;
+	padding: 10px 0 10px 10px;
+	margin: 25px 0;
+	border: none;
+	background-color: $colourprim;
+}
+
+.titles__button:focus {
+	outline: 0;
+}
+
+.titles__button:hover {
+	cursor: pointer;
+}
+
+.titles__button:active {
+	text-shadow: 1px 1px 1px $colouracc;
+}
+
+.titles__button h5 {
+	margin: 0;
+	color: $colouracc;
+	text-decoration: underline;
+}
+
+.titles__description__text {
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 65%;
+	position: relative;
+	margin: 20px 10px -90px 0;
+}
+
+.titles__text p {
+	margin: 0;
+	padding: 0 5px;
+}
+
+.titles__instructor__text {
+	position: absolute;
+	top: 3%;
+	botton: 0;
+	right: 0;
+	left: 0;
+	display: none;
+}
+
+.titles__performer__text {
+	position: absolute;
+	top: 25%;
+	botton: 0;
+	right: 0;
+	left: 0;
+	display: none;
+}
+
+.titles__ceo__text {
+	position: absolute;
+	top: 46%;
+	botton: 0;
+	right: 0;
+	left: 0;
+	display: none;
+}
+
+.text--open {
+	display: block;
+}
+
+.titles__images {
+	width: 50%;
+	position: relative;
+	background-color: $colourprim;
+}
+
+.titles__default__image {
+	background-image: url(../assets/titles/sideprofile.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+}
+
+.titles__instructor__image {
+	background-image: url(../assets/titles/instructor.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+}
+
+.titles__performer__image {
+	background-image: url(../assets/titles/performer.jpg);
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+}
+
+.titles__ceo__image {
+	background-image: url(../assets/titles/ceo.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+}
+
+.image--open {
+	display: block;
+}
+// ==Titles Ends==

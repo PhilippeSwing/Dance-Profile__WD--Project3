@@ -1,0 +1,112 @@
+// ==Variables==
+$colourprim: #F1E6D8; 
+$coloursec: #453223;
+$colouracc: #D58028;
+$colourbody: #323232;
+
+$fontprim: "Lora";
+$fontsec: "Source Sans Pro";
+// ==Variables Ends==
+html {
+	font-size: 62.5%;
+	font-weight: 400;
+	font-family: $fontsec;
+}
+// ==Typography==
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: $fontprim;
+	color: $coloursec;
+}
+
+h1 {
+	font-size: 5.8rem;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 3.8rem;
+}
+
+h3 {
+	font-size: 3rem;
+}
+
+h4 {
+ 	font-size: 1.7rem;
+}
+
+h5 {
+	font-size: 1.5rem;
+}
+
+p {
+	font-size: 1.3rem;
+	color: #323232;
+	line-height: 2.5rem;
+}
+// ==Typography Ends==
+.headings {
+	font-family: $fontprim;
+}
+
+.common__header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.common__header__title {
+	text-align: center;
+	width: 30%;
+	margin-bottom: 0;
+
+}
+
+.common__header__description {
+	text-align: center;
+	width: 50%;
+}
+
+.button {
+	text-transform: uppercase;
+	color: white;
+	padding: 10px 35px 10px 35px;
+	background-color: $colouracc;
+	border-radius: 5px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.button:hover {
+	background-color: #FF8B44;
+	cursor: pointer;
+}
+
+.button:active {
+	top: 2px;
+	left: 2px;
+
+}
+
+.wrapper__full {
+	max-width: 1918px;
+}
+
+.wrapper__aboutme,
+.wrapper__gallery,
+.wrapper__events,
+.wrapper__evolution,
+.wrapper__history-icons {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.wrapper__legends {
+	max-width: 920px;
+}

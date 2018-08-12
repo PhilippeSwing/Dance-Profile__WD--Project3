@@ -1,0 +1,144 @@
+// ==Gallery Section==
+.gallery__main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.gallery__section {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	-webkit-animation-duration: 4s;
+	-moz-animation-duration: 4s;
+	border-top: 2px solid $coloursec;
+	position: relative;
+	padding: 10px 5px 10px 5px;
+}
+
+.gallery_fadein {
+	-webkit-animation-duration: 4s;
+	-moz-animation-duration: 4s;
+}
+
+.gallery__background {
+	background-color: $colourprim;
+}
+
+.gallery__figure {
+	width: calc(20% - 30px - 2px);
+	position: relative;
+	margin: 7px 15px 7px 15px;
+	border: 1px solid inherit;
+	border-radius: 10px;
+	box-shadow: 8px 8px 5px $coloursec;
+	transition: transform 0.5s;
+}
+
+.gallery__figure img {
+	display: block;
+	width: 100%;
+	border: 1px solid inherit;
+	border-radius: 10px;
+}
+
+.gallery__figcaption {
+	display: none;
+	transition: all 1s;
+	border: 1px solid inherit;
+	border-radius: 10px;
+}
+
+.gallery__figcaption h4 {
+	color: white;
+	margin-top: 0;
+	text-align: center;
+}
+
+.gallery__figure:hover .gallery__figcaption {
+	color: white;
+	background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.gallery__figcaption i {
+	transition: all 0.6s;
+	font-size: 20px;
+}
+
+.gallery__figcaption:hover i {
+	transform: scale(2);
+}
+
+.gallery__button {
+	margin: 10px 0 10px 0;
+}
+// *Picture Expand*
+.image-scale {
+	transform: scale(3);
+    z-index: 5;
+    position: absolute;
+    left: 40%;
+    box-shadow: 0px 0px 0px;
+}
+
+.image-border {
+	border: 2px solid $colourprim;
+}
+
+.gallery__body.dim {
+	background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9));
+}
+
+.exit-link__gallerysplits.show,
+.exit-link__gallerysonhpoint.show,
+.exit-link__gallerysox.show,
+.exit-link__gallerypbandj.show,
+.exit-link__gallerygreenglasses.show,
+.exit-link__galleryallfours.show,
+.exit-link__galleryashley.show,
+.exit-link__gallerybowtie.show,
+.exit-link__galleryclaudiajump.show,
+.exit-link__galleryfoamring.show,
+.exit-link__gallerygoofyglasses.show,
+.exit-link__galleryleojasperme.show,
+.exit-link__gallerymiranda.show,
+.exit-link__galleryskyreach.show,
+.exit-link__gallerysoxperform.show {
+	display: none;
+}
+.caption-hide.gallery__figcaption.captionsplits,
+.caption-hide.gallery__figcaption.captionsonhpoint,
+.caption-hide.gallery__figcaption.captionsox,
+.caption-hide.gallery__figcaption.captionpbandj,
+.caption-hide.gallery__figcaption.captiongreenglasses,
+.caption-hide.gallery__figcaption.captionallfours,
+.caption-hide.gallery__figcaption.captionashley,
+.caption-hide.gallery__figcaption.captionbowtie,
+.caption-hide.gallery__figcaption.captionclaudiajump,
+.caption-hide.gallery__figcaption.captionfoamring,
+.caption-hide.gallery__figcaption.captiongoofyglasses,
+.caption-hide.gallery__figcaption.captionleojasperme,
+.caption-hide.gallery__figcaption.captionmiranda,
+.caption-hide.gallery__figcaption.captionskyreach,
+.caption-hide.gallery__figcaption.captionsoxperform {
+	display: none;
+}
+
+.gallery__section .fa-times {
+	border: 1px solid $colourprim;
+	border-radius: 3px;
+	color: $colourprim;
+	padding: 1px;
+	margin-bottom: 2px;
+}
+// ==Gallery Section Ends==
